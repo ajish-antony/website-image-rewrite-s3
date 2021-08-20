@@ -86,7 +86,9 @@ Next, the most important part is that for redirecting all the images in the webs
 
 # vim /etc/httpd/conf/httpd.conf
 RewriteEngine On
-RewriteRule ^/img/(.*)$  https://s3.ap-south-1.amazonaws.com//app.ajishantony.tech/$1 [L]
+RewriteRule ^/images/(.*)$  https://s3.ap-south-1.amazonaws.com/YOUR-S3-BUCKET-NAME/$1 [L]
+
+# systemctl restart httpd
 ```
 
 ## Website_user uploading the images. 
