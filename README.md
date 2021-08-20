@@ -99,6 +99,7 @@ alt_txt
 
 
 ## Output be like
+
 As provided in the screenshots below. The image for the website has been fetched from the S3 bucket. ![
 alt_txt
 ](https://i.ibb.co/vw3G0MC/Screenshot-1.png)
