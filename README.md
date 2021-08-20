@@ -20,7 +20,7 @@ I will briefly explain the scenario for this project. There is a website with ma
 
 ![
 alt_txt
-](https://i.ibb.co/JKLxz8W/Untitled-Diagram-1.jpg)
+](https://i.ibb.co/f9KMYTQ/s3.jpg)
 
 
 ## Steps Followed
