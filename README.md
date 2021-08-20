@@ -1,4 +1,4 @@
-# Website With Image Redirection From S3
+# Website With Images Redirection From S3
 ## 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
