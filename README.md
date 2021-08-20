@@ -34,7 +34,7 @@ Update the policy with the required access details
 ![
 alt_txt
 ](https://i.ibb.co/PxYYFm5/org-policy-2.png)
-The policy I have created is provided below.
+The policy I have created for accessing a particular bucket is provided below.
 ```sh
 {
     "Version": "2012-10-17",
@@ -89,8 +89,10 @@ RewriteEngine On
 RewriteRule ^/img/(.*)$  https://s3.ap-south-1.amazonaws.com//app.ajishantony.tech/$1 [L]
 ```
 
-## Website user uploading the images. 
+## Website_user uploading the images. 
+
 For uploading the images for the user, provide the user with the specific URL for accessing the S3 bucket as like: https://s3.console.aws.amazon.com/s3/buckets/website-image-devops. Then the user can choose the upload option for uploading the images.
+
 ![
 alt_txt
 ](https://i.ibb.co/w4jMM4z/Screenshot-9.png)
@@ -100,7 +102,9 @@ alt_txt
 
 ## Output be like
 
-As provided in the screenshots below. The image for the website has been fetched from the S3 bucket. ![
+As provided in the screenshots below. The image for the website has been fetched from the S3 bucket. 
+
+![
 alt_txt
 ](https://i.ibb.co/vw3G0MC/Screenshot-1.png)
 
