@@ -1,9 +1,9 @@
-# Website With Images Redirection From S3
+# Website With Images Rewrite From S3
 ## 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
 I will briefly explain the scenario for this project. There is a website with mainly focus on images content and at the same time, there were different users for the website development. Here their concern was that the images for the website should server from the S3 bucket and the user uploading the images for the website should have access to that particular purpose only. No other privileges should be provided for the user. To achieve this I have made use of S3 storage and IAM policies.
-    Here I have configured the IAM user and provided them with the privilege to access the specific S3 bucket, where he will be uploading the images. Further developing side of the website will be handled by the developers who have access to the server and also provided with a redirection to fetch the images from the S3 bucket. So at the time of browsing the website, the image content will be served from the S3.
+    Here I have configured the IAM user and provided them with the privilege to access the specific S3 bucket, where he will be uploading the images. Further developing side of the website will be handled by the developers who have access to the server and also provided with a rewrite to fetch the images from the S3 bucket. So at the time of browsing the website, the image content will be served from the S3.
     
 
 ## Features
@@ -80,7 +80,7 @@ alt_txt
     ]
 }
 ```
-Next, the most important part is that for redirecting all the images in the website to fetch from the S3 bucket. For that, I have configured with a redirection rule in httpd.conf.
+Next, the most important part is that for redirecting all the images in the website to fetch from the S3 bucket. For that, I have configured with a rewrite rule in httpd.conf.
 
 ```sh
 
